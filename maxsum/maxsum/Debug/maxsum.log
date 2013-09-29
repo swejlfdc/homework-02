@@ -1,15 +1,21 @@
-﻿Build started 2013/9/19 20:42:34.
-     1>Project "C:\Users\swejlfdc\Documents\GitHub\homework-01\maxsum\maxsum\maxsum.vcxproj" on node 2 (Build target(s)).
+﻿Build started 2013/9/29 20:05:13.
+     1>Project "C:\Users\swejlfdc\Documents\GitHub\homework-02\maxsum\maxsum\maxsum.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
-     1>c:\users\swejlfdc\documents\github\homework-01\maxsum\maxsum\main.cpp(9): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(290) : see declaration of 'scanf'
+     1>c:\users\swejlfdc\documents\github\homework-02\maxsum\maxsum\main.cpp(17): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\swejlfdc\documents\github\homework-02\maxsum\maxsum\main.cpp(18): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : see declaration of 'fscanf'
+     1>c:\users\swejlfdc\documents\github\homework-02\maxsum\maxsum\main.cpp(21): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : see declaration of 'fscanf'
+     1>c:\users\swejlfdc\documents\github\homework-02\maxsum\maxsum\main.cpp(22): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : see declaration of 'fscanf'
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\swejlfdc\Documents\GitHub\homework-01\maxsum\Debug\maxsum.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\swejlfdc\Documents\GitHub\homework-01\maxsum\Debug\maxsum.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\swejlfdc\Documents\GitHub\homework-01\maxsum\Debug\maxsum.lib" /MACHINE:X86 Debug\main.obj
-         maxsum.vcxproj -> C:\Users\swejlfdc\Documents\GitHub\homework-01\maxsum\Debug\maxsum.exe
-     1>Done Building Project "C:\Users\swejlfdc\Documents\GitHub\homework-01\maxsum\maxsum\maxsum.vcxproj" (Build target(s)).
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\swejlfdc\Documents\GitHub\homework-02\maxsum\Debug\maxsum.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\swejlfdc\Documents\GitHub\homework-02\maxsum\Debug\maxsum.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\swejlfdc\Documents\GitHub\homework-02\maxsum\Debug\maxsum.lib" /MACHINE:X86 Debug\main.obj
+         maxsum.vcxproj -> C:\Users\swejlfdc\Documents\GitHub\homework-02\maxsum\Debug\maxsum.exe
+     1>Done Building Project "C:\Users\swejlfdc\Documents\GitHub\homework-02\maxsum\maxsum\maxsum.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.41
+Time Elapsed 00:00:01.18

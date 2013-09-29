@@ -2,8 +2,8 @@
 #include<utility>
 #include<queue>
 #include<iostream>
-#define MAXCOL 1000
-#define MAXROW 1000
+#define MAXCOL 2000
+#define MAXROW 2000
 #define getmax(a,b) if(a<b) a=b
 
 using namespace std;
@@ -39,7 +39,7 @@ int maxsum(int mat[][MAXCOL], int row_size, int col_size, int rRow, int rCol) {
 	int arr[MAXCOL];
 	int ret = -inf;
 	for(int ni = 0; ni < row_size; ++ni)
-		for(int nj = 0; nj < col_size; ++nj) {			
+		for(int nj = 0; nj < col_size - rCol + 1; ++nj) {			
 			memset(arr, 0, sizeof(arr));
 			for(int i = ni; i < ni + rRow && i < row_size; ++i) {
 				for(int j = nj; j < nj + rCol && j < col_size; ++j)

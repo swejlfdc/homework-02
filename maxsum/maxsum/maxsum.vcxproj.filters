@@ -18,19 +18,27 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="maxsum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="README.txt">
       <Filter>Resource Files</Filter>
     </Text>
-    <Text Include="example.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
-    <Text Include="test.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
     <Text Include="data1.txt">
       <Filter>Resource Files</Filter>
     </Text>
+    <Text Include="example.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\FstUnitTest\unittest1.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="maxsum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

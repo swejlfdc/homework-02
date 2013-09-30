@@ -1,0 +1,25 @@
+﻿Build started 2013/9/30 23:32:02.
+     1>Project "C:\Users\swejlfdc\Documents\GitHub\homework-02\maxsum\FstUnitTest\FstUnitTest.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\FstUnitTest.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /FC /errorReport:prompt unittest1.cpp
+         unittest1.cpp
+     1>c:\users\swejlfdc\documents\github\homework-02\maxsum\fstunittest\unittest1.cpp(6): warning C4273: 'maxsum' : inconsistent dll linkage
+                 c:\users\swejlfdc\documents\github\homework-02\maxsum\maxsum\maxsum.h(12) : see previous definition of 'maxsum'
+     1>c:\users\swejlfdc\documents\github\homework-02\maxsum\fstunittest\unittest1.cpp(21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\swejlfdc\documents\github\homework-02\maxsum\fstunittest\unittest1.cpp(22): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : see declaration of 'fscanf'
+     1>c:\users\swejlfdc\documents\github\homework-02\maxsum\fstunittest\unittest1.cpp(25): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : see declaration of 'fscanf'
+     1>c:\users\swejlfdc\documents\github\homework-02\maxsum\fstunittest\unittest1.cpp(26): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(237) : see declaration of 'fscanf'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\swejlfdc\Documents\GitHub\homework-02\maxsum\Debug\FstUnitTest.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\UnitTest\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\swejlfdc\Documents\GitHub\homework-02\maxsum\Debug\FstUnitTest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\swejlfdc\Documents\GitHub\homework-02\maxsum\Debug\FstUnitTest.lib" /MACHINE:X86 /DLL Debug\stdafx.obj
+         Debug\unittest1.obj
+         "C:\Users\swejlfdc\Documents\GitHub\homework-02\maxsum\Debug\maxsum.lib"
+         FstUnitTest.vcxproj -> C:\Users\swejlfdc\Documents\GitHub\homework-02\maxsum\Debug\FstUnitTest.dll
+     1>Done Building Project "C:\Users\swejlfdc\Documents\GitHub\homework-02\maxsum\FstUnitTest\FstUnitTest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.44

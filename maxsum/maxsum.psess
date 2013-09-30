@@ -50,7 +50,7 @@
       <LaunchMethod>Executable</LaunchMethod>
       <ExecutablePath>Debug\maxsum.exe</ExecutablePath>
       <StartupDirectory>maxsum\</StartupDirectory>
-      <Arguments>test.txt /a /v /h</Arguments>
+      <Arguments>data1.txt /v</Arguments>
       <NetAppHost>IIS</NetAppHost>
       <NetBrowser>InternetExplorer</NetBrowser>
       <ExcludeSmallFuncs>true</ExcludeSmallFuncs>
@@ -66,11 +66,6 @@
       <ProjName>maxsum</ProjName>
     </ProjBinary>
   </Binaries>
-  <Reports>
-    <Report>
-      <Path>maxsum130929.vsp</Path>
-    </Report>
-  </Reports>
   <Launches>
     <ProjBinary>
       <Path>:PB:{ED5CD019-F668-46C7-BDD6-FB9950CA87CB}|maxsum\maxsum.vcxproj</Path>
